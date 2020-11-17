@@ -1,4 +1,4 @@
-package MaximPractice.lesson1;
+package RomaPractice;
 
 public class Numbers {
     //Примитивные типы данный

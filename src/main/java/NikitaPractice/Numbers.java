@@ -1,4 +1,4 @@
-package RomaPractice.lesson1;
+package NikitaPractice;
 
 public class Numbers {
     //Примитивные типы данный
@@ -16,3 +16,6 @@ public class Numbers {
 
     boolean h;
 }
+
+
+

@@ -1,4 +1,4 @@
-package NikitaPractice.lesson1;
+package MaximPractice;
 
 public class Numbers {
     //Примитивные типы данный
@@ -16,6 +16,3 @@ public class Numbers {
 
     boolean h;
 }
-
-
-
