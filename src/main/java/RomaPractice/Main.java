@@ -2,6 +2,6 @@ package RomaPractice;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hot sisters");
+        System.out.println("Sisi");
     }
 }
