@@ -1,10 +1,10 @@
 package RomaPractice;
 
-public class BusLesson7 {
+public class Bus {
     public String model;
     public String color;
 
-    public void showColor(){
+    public void showColor() {
         System.out.println(color);
 
     }
