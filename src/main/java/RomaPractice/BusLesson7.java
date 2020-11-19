@@ -1,6 +1,6 @@
-package RomaPractice.lesson7;
+package RomaPractice;
 
-public class Bus {
+public class BusLesson7 {
     public String model;
     public String color;
 
