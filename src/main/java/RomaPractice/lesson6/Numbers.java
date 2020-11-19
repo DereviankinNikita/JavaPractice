@@ -1,4 +1,4 @@
-package RomaPractice;
+package RomaPractice.lesson6;
 
 public class Numbers {
     // x+3=5
