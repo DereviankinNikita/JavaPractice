@@ -1,7 +1,5 @@
 package RomaPractice;
 
-import RomaPractice.BusLesson7;
-
 public class Main {
     public static void main(String[] args) {    //psvm
         BusLesson7 ourBusLesson7 = ourBusLesson7 = new BusLesson7();  //для создания объекта исп. ключевое слово new и конструктор класса (Bus)
