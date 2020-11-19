@@ -13,6 +13,6 @@ public class Main {
         ourBusLesson7.showColor();
         firstBus.showColor();
         secondBus.showColor();
-        // /
+        // //
     }
 }
