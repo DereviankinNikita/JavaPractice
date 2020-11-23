@@ -15,8 +15,7 @@ public class Main {
         secondBus.showColor();
 
      */
-
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         AjaxEmployee nikoEmployee = new AjaxEmployee();
         AjaxEmployee yarikEmployee = new AjaxEmployee();
         AjaxEmployee yuliaEmployee = new AjaxEmployee();
@@ -31,6 +30,23 @@ public class Main {
         nikoEmployee.ShowVacancy();
         yarikEmployee.ShowVacancy();
         yuliaEmployee.ShowVacancy();
+    }
+     */
+    /*public static void main(String[] args) {
+        Operation newOperation = new Operation();
+        newOperation.foo();
+
+    }
+
+     */
+    /*public static void main(String[] args) {
+        ControlOperator co=new ControlOperator();
+        co.foo();
+    }*/
+    public static void main(String[] args) {
+        OperatorSwitch oS=new OperatorSwitch();
+        oS.foo();
 
     }
 }
+
