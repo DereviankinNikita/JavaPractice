@@ -3,10 +3,10 @@ package RomaPractice;
 public class Gamer {
     public String name;
     public int gameLvl, age, hdcrLvl;
-    char d=9164, g=2593;
+    //char d=9164, g=2593;
 
     public void show() {
-        System.out.println("Имя игрока " + d +name + "\n");
+        System.out.println("Имя игрока " + name + "\n");
         hdcrLvl = (age * gameLvl) * 10;
         int a = 1000, b = 1500, c = 2000;
 
@@ -21,6 +21,7 @@ public class Gamer {
             System.out.println("Уровень его скилла = " + hdcrLvl + " единиц\nОчень высокий уровень!!!");
         } else if (hdcrLvl > c)
             System.out.println("Уровень его скилла = " + hdcrLvl + " единиц\nПросто божественный уровень!!!");
+        System.out.println("___________________________________");
 
     }
 }
