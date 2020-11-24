@@ -2,16 +2,17 @@ package NikitaPractice;
 
 public class Main {
     public static void main(String[] args){
-        Bus ourBus = new Bus();         /** Создание объекта класса Bus */
+        Bus ourBusLesson7 = new Bus();         /** Создание объекта класса Bus */
         Bus firstBus = new Bus();       /** Создание объекта класса Bus */
         Bus secondBus = new Bus();      /** Создание объекта класса Bus */
 
-        ourBus.color = "Red";
+        ourBusLesson7.color = "Red";
         firstBus.color = "Green";
         secondBus.color = "Grey";
 
-        ourBus.showColor();
+        ourBusLesson7.showColor();
         firstBus.showColor();
         secondBus.showColor();
+        // //
     }
 }

@@ -1,0 +1,8 @@
+# Lines starting with '#' are comments.
+# Each line is a file pattern followed by one or more owners.
+
+# 
+*Java/   @DereviankinNikita
+
+# You can also use email addresses if you prefer.
+docs/*  docs@example.com
