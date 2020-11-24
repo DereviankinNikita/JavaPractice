@@ -2,7 +2,7 @@ package RomaPractice;
 
 public class OperatorSwitch {
 
-    int value=2, firstValue=1, secondValue=2, thirdValue=3;
+    final int VALUE=2, firstValue=1, secondValue=2, thirdValue=3; //КОНСТАНТЫЙ принято писать заглавными
 
     public void foo(){
         //Оператор множественного выбора
@@ -21,5 +21,17 @@ public class OperatorSwitch {
             default:
                 System.out.println("Not found");
         }*/
+        switch (VALUE){   // оператор switch работает с константами (?) РАЗОБРАТЬСЯ ПОДРОБНЕЕ!!!!
+            case firstValue:
+                System.out.println(firstValue);
+            case secondValue:
+                System.out.println(secondValue);
+                break;
+            case thirdValue:
+                System.out.println(thirdValue);
+                break;
+            default:
+                System.out.println("Default");
+        }
     }
 }
