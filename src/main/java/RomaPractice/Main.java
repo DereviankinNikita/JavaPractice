@@ -43,10 +43,13 @@ public class Main {
         ControlOperator co=new ControlOperator();
         co.foo();
     }*/
-    public static void main(String[] args) {
-        OperatorSwitch oS=new OperatorSwitch();
+    /*public static void main(String[] args) {
+        *//*OperatorSwitch oS=new OperatorSwitch();
         oS.foo();
+*//*
+        LoopControl lp=new LoopControl();
+        lp.foo();
+    }*/
 
-    }
 }
 
