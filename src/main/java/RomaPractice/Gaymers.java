@@ -1,6 +1,6 @@
 package RomaPractice;
 
-public class MaximVlasenko {
+public class Gaymers {
     public static void main(String[] args) {
         Gamer max = new Gamer();
         max.name = "Максим aka TwistTheBones Власенко";
