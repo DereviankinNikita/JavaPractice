@@ -21,5 +21,4 @@ public class Gaymers {
         niko.show();
 
     }
-
 }
