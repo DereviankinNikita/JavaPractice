@@ -20,12 +20,12 @@ public class SignUp extends WebDriverSettings {
         // Enter First &  Last names
         driver.findElement(By.xpath("//input[@id='usernamereg-firstName']")).sendKeys("Roman");
         driver.findElement(By.xpath("//input[@id='usernamereg-lastName']")).sendKeys("Doroshenko");
+
         // Generate random login
         Random random = new Random();
         int i = random.nextInt(99) + 1;
-        int array[] = {66, 99, 97, 63, 73};
-        //
         String s = "igorrr" + i;
+
         // Enter login & password
         driver.findElement(By.xpath("//input[@id='usernamereg-yid']")).sendKeys(s);
         driver.findElement(By.xpath("//input[@id='usernamereg-password']")).sendKeys("qwerty1" + i);
@@ -73,6 +73,7 @@ public class SignUp extends WebDriverSettings {
                 driver.findElement(By.xpath("//option[@value='12']")).click();
                 break;
         }
+
         // Birth date input
         driver.findElement(By.xpath("//input[@id='usernamereg-day']")).sendKeys("01");
         driver.findElement(By.xpath("//input[@id='usernamereg-year']")).sendKeys("1992");
@@ -81,7 +82,7 @@ public class SignUp extends WebDriverSettings {
         WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@id='desktop-suggestions-container show']")));
 
-        driver.findElement(By.xpath("//input[@id='usernamereg-firstName']")).click();// Vodoo magic to continue
+        driver.findElement(By.xpath("//input[@id='usernamereg-firstName']")).click();// Voogirtdoo magic to continue
         driver.findElement(By.xpath("//button[@id='reg-submit-button']")).click();
 
     }
