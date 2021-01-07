@@ -12,10 +12,10 @@ public class Gamer {
 
         if (hdcrLvl < a && hdcrLvl != 0) {
             System.out.println("Уровень его скилла = " + hdcrLvl + " единиц\nОчень низкий - git good!");
-        } else if (hdcrLvl == 0)
-            System.out.println("Уровень скилла ЭТОГО РАКА  = " + hdcrLvl + " единиц\nНу ты и рачина, удаляй кампутер");
-        if (hdcrLvl > a && hdcrLvl < b)
-            System.out.println("Его уровень скилла = " + hdcrLvl + " единиц\nСредний показатель, есть куда расти.");
+        } else if (hdcrLvl == 0){
+            System.out.println("Уровень скилла ЭТОГО РАКА  = " + hdcrLvl + " единиц\nНу ты и рачина, удаляй кампутер");}
+        if (hdcrLvl > a && hdcrLvl < b){
+            System.out.println("Его уровень скилла = " + hdcrLvl + " единиц\nСредний показатель, есть куда расти.");}
 
         if (hdcrLvl > b && hdcrLvl <= c) {
             System.out.println("Уровень его скилла = " + hdcrLvl + " единиц\nОчень высокий уровень!!!");

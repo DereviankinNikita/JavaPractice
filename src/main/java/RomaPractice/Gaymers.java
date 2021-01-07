@@ -9,17 +9,16 @@ public class Gaymers {
         max.show();
 
         Gamer maxLosev = new Gamer();
-        maxLosev.name="Максим aka Radios Лосев";
-        maxLosev.gameLvl=5;
-        maxLosev.age=22;
+        maxLosev.name = "Максим aka Radios Лосев";
+        maxLosev.gameLvl = 5;
+        maxLosev.age = 22;
         maxLosev.show();
 
-        Gamer niko= new Gamer();
-        niko.name="Никита aka HRцк Деревянкин";
-        niko.age=21;
-        niko.gameLvl=3;
+        Gamer niko = new Gamer();
+        niko.name = "Никита aka HRцк Деревянкин";
+        niko.age = 21;
+        niko.gameLvl = 3;
         niko.show();
 
     }
-
 }
