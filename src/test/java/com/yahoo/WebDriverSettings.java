@@ -12,7 +12,7 @@ public class WebDriverSettings {
     Random random = new Random();
     @Before
     public void setup() {
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/chromedriver_win.exe");
         driver = new ChromeDriver();
 
     }

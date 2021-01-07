@@ -6,7 +6,7 @@ import ag.rezka.PageObjects.RezkaTitleHelper;
 import ag.rezka.helpers.TestSettings;
 import org.junit.Assert;
 import org.junit.Test;
-import org.openqa.selenium.interactions.Actions;
+
 
 public class RezkaTest extends TestSettings {
 
