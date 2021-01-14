@@ -1,9 +1,6 @@
 package Helpers;
 
-import Helpers.ObjetUpPage.HdRezkaMainPageHelper;
-import Helpers.ObjetUpPage.HdRezkaRegisterHelper;
-import Helpers.ObjetUpPage.MoiZakladkiElements;
-import Helpers.ObjetUpPage.SecondPageHelper;
+import Helpers.ObjetUpPage.*;
 import org.openqa.selenium.Alert;
 import org.junit.Assert;
 import org.junit.Test;
@@ -52,11 +49,11 @@ public class HdRezka extends TestInit {
 
     }
 
-    
+
     @Test
     public void HdRezkaSingIn() {
         HdRezkaMainPageHelper rezka1 = new HdRezkaMainPageHelper(driver);
-        HdRezkaLogInHelper log = new HdRezkaLogInHelper(driver);
+        HdRezkaLogInHelpergi log = new HdRezkaLogInHelper(driver);
 
         rezka1.goTo();
 
