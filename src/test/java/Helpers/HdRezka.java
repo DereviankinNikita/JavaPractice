@@ -53,7 +53,7 @@ public class HdRezka extends TestInit {
     @Test
     public void HdRezkaSingIn() {
         HdRezkaMainPageHelper rezka1 = new HdRezkaMainPageHelper(driver);
-        HdRezkaLogInHelpergi log = new HdRezkaLogInHelper(driver);
+        HdRezkaLogInHelper log = new HdRezkaLogInHelper(driver);
 
         rezka1.goTo();
 
