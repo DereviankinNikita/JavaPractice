@@ -50,9 +50,9 @@ public class TestInit{
     }
 
 
-    @After
-    public void close(){
-        driver.quit();
-    }
+//    @After
+//    public void close(){
+//        driver.quit();
+//    }
 
 }
