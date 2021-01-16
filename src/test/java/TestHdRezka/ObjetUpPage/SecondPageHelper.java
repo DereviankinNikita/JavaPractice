@@ -1,4 +1,4 @@
-package Helpers.ObjetUpPage;
+package TestHdRezka.ObjetUpPage;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

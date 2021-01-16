@@ -1,6 +1,6 @@
-package Helpers.ObjetUpPage;
+package TestHdRezka.ObjetUpPage;
 
-import Helpers.DriverHolder;
+import TestHdRezka.Helpers.DriverHolder;
 import org.openqa.selenium.*;
 
 

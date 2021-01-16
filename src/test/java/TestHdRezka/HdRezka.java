@@ -1,6 +1,7 @@
-package Helpers;
+package TestHdRezka;
 
-import Helpers.ObjetUpPage.*;
+import TestHdRezka.Helpers.TestInit;
+import TestHdRezka.ObjetUpPage.*;
 import org.openqa.selenium.Alert;
 import org.junit.Assert;
 import org.junit.Test;
