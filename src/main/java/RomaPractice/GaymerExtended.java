@@ -20,7 +20,7 @@ public class GaymerExtended {
 
     GaymerExtended() {
         name = "horny";
-        age = 0;
+        age = 13;
         steam_lvl = hardcore_lvl = 0;
     }
 
